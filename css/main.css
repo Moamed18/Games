@@ -1,0 +1,62 @@
+
+.active{
+  color: tomato !important;
+}
+.nav-link:hover{
+  color: tomato ;
+}
+.icon{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+
+}
+body{
+  background-image: url(../img/pexels-pixabay-327509.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.card-img-overlay{
+  background-size: cover;
+}
+
+.navbar-brand{
+  font-family: 'Blaka', cursive;
+  font-size: 3rem;
+}
+.item{
+  transition: all 0.5s;
+}
+.item:hover{
+  transform: scale(1.1,1.1);
+  
+}
+
+::-webkit-scrollbar {
+   width: 1rem;
+   
+}
+
+::-webkit-scrollbar-track {
+   background-color: black;
+      
+      
+
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: white;
+   border-radius: 50px;
+   box-shadow: 0 0 5px rgb(0 0 0 / 0.5) inset;
+}
+
+.looding{
+  background-color: rgba(0, 0, 0, 0.705);
+  z-index: 1222222222;
+  color: white;
+}
+
+
+
